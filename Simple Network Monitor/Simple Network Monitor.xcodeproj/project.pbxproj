@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC0AF7F21BA6DA3600BFE4A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0AF7F11BA6DA3600BFE4A9 /* AppDelegate.swift */; };
+		FC0AF7F41BA6DA3600BFE4A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC0AF7F31BA6DA3600BFE4A9 /* Assets.xcassets */; };
+		FC0AF7F71BA6DA3600BFE4A9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0AF7F51BA6DA3600BFE4A9 /* MainMenu.xib */; };
+		FC0AF8021BA6DA3600BFE4A9 /* Simple_Network_MonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0AF8011BA6DA3600BFE4A9 /* Simple_Network_MonitorTests.swift */; };
+		FC0AF80D1BA6DA3600BFE4A9 /* Simple_Network_MonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0AF80C1BA6DA3600BFE4A9 /* Simple_Network_MonitorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC0AF7FE1BA6DA3600BFE4A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC0AF7E61BA6DA3600BFE4A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC0AF7ED1BA6DA3600BFE4A9;
+			remoteInfo = "Simple Network Monitor";
+		};
+		FC0AF8091BA6DA3600BFE4A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC0AF7E61BA6DA3600BFE4A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC0AF7ED1BA6DA3600BFE4A9;
+			remoteInfo = "Simple Network Monitor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC0AF7EE1BA6DA3600BFE4A9 /* Simple Network Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Network Monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0AF7F11BA6DA3600BFE4A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC0AF7F31BA6DA3600BFE4A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC0AF7F61BA6DA3600BFE4A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FC0AF7F81BA6DA3600BFE4A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC0AF7FD1BA6DA3600BFE4A9 /* Simple Network MonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Network MonitorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0AF8011BA6DA3600BFE4A9 /* Simple_Network_MonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_Network_MonitorTests.swift; sourceTree = "<group>"; };
+		FC0AF8031BA6DA3600BFE4A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC0AF8081BA6DA3600BFE4A9 /* Simple Network MonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Network MonitorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC0AF80C1BA6DA3600BFE4A9 /* Simple_Network_MonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_Network_MonitorUITests.swift; sourceTree = "<group>"; };
+		FC0AF80E1BA6DA3600BFE4A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC0AF7EB1BA6DA3600BFE4A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0AF7FA1BA6DA3600BFE4A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0AF8051BA6DA3600BFE4A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC0AF7E51BA6DA3600BFE4A9 = {
+			isa = PBXGroup;
+			children = (
+				FC0AF7F01BA6DA3600BFE4A9 /* Simple Network Monitor */,
+				FC0AF8001BA6DA3600BFE4A9 /* Simple Network MonitorTests */,
+				FC0AF80B1BA6DA3600BFE4A9 /* Simple Network MonitorUITests */,
+				FC0AF7EF1BA6DA3600BFE4A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC0AF7EF1BA6DA3600BFE4A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC0AF7EE1BA6DA3600BFE4A9 /* Simple Network Monitor.app */,
+				FC0AF7FD1BA6DA3600BFE4A9 /* Simple Network MonitorTests.xctest */,
+				FC0AF8081BA6DA3600BFE4A9 /* Simple Network MonitorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC0AF7F01BA6DA3600BFE4A9 /* Simple Network Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				FC0AF7F11BA6DA3600BFE4A9 /* AppDelegate.swift */,
+				FC0AF7F31BA6DA3600BFE4A9 /* Assets.xcassets */,
+				FC0AF7F51BA6DA3600BFE4A9 /* MainMenu.xib */,
+				FC0AF7F81BA6DA3600BFE4A9 /* Info.plist */,
+			);
+			path = "Simple Network Monitor";
+			sourceTree = "<group>";
+		};
+		FC0AF8001BA6DA3600BFE4A9 /* Simple Network MonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC0AF8011BA6DA3600BFE4A9 /* Simple_Network_MonitorTests.swift */,
+				FC0AF8031BA6DA3600BFE4A9 /* Info.plist */,
+			);
+			path = "Simple Network MonitorTests";
+			sourceTree = "<group>";
+		};
+		FC0AF80B1BA6DA3600BFE4A9 /* Simple Network MonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC0AF80C1BA6DA3600BFE4A9 /* Simple_Network_MonitorUITests.swift */,
+				FC0AF80E1BA6DA3600BFE4A9 /* Info.plist */,
+			);
+			path = "Simple Network MonitorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC0AF7ED1BA6DA3600BFE4A9 /* Simple Network Monitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC0AF8111BA6DA3600BFE4A9 /* Build configuration list for PBXNativeTarget "Simple Network Monitor" */;
+			buildPhases = (
+				FC0AF7EA1BA6DA3600BFE4A9 /* Sources */,
+				FC0AF7EB1BA6DA3600BFE4A9 /* Frameworks */,
+				FC0AF7EC1BA6DA3600BFE4A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple Network Monitor";
+			productName = "Simple Network Monitor";
+			productReference = FC0AF7EE1BA6DA3600BFE4A9 /* Simple Network Monitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC0AF7FC1BA6DA3600BFE4A9 /* Simple Network MonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC0AF8141BA6DA3600BFE4A9 /* Build configuration list for PBXNativeTarget "Simple Network MonitorTests" */;
+			buildPhases = (
+				FC0AF7F91BA6DA3600BFE4A9 /* Sources */,
+				FC0AF7FA1BA6DA3600BFE4A9 /* Frameworks */,
+				FC0AF7FB1BA6DA3600BFE4A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC0AF7FF1BA6DA3600BFE4A9 /* PBXTargetDependency */,
+			);
+			name = "Simple Network MonitorTests";
+			productName = "Simple Network MonitorTests";
+			productReference = FC0AF7FD1BA6DA3600BFE4A9 /* Simple Network MonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC0AF8071BA6DA3600BFE4A9 /* Simple Network MonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC0AF8171BA6DA3600BFE4A9 /* Build configuration list for PBXNativeTarget "Simple Network MonitorUITests" */;
+			buildPhases = (
+				FC0AF8041BA6DA3600BFE4A9 /* Sources */,
+				FC0AF8051BA6DA3600BFE4A9 /* Frameworks */,
+				FC0AF8061BA6DA3600BFE4A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC0AF80A1BA6DA3600BFE4A9 /* PBXTargetDependency */,
+			);
+			name = "Simple Network MonitorUITests";
+			productName = "Simple Network MonitorUITests";
+			productReference = FC0AF8081BA6DA3600BFE4A9 /* Simple Network MonitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC0AF7E61BA6DA3600BFE4A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = swirlycheetah;
+				TargetAttributes = {
+					FC0AF7ED1BA6DA3600BFE4A9 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					FC0AF7FC1BA6DA3600BFE4A9 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FC0AF7ED1BA6DA3600BFE4A9;
+					};
+					FC0AF8071BA6DA3600BFE4A9 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FC0AF7ED1BA6DA3600BFE4A9;
+					};
+				};
+			};
+			buildConfigurationList = FC0AF7E91BA6DA3600BFE4A9 /* Build configuration list for PBXProject "Simple Network Monitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC0AF7E51BA6DA3600BFE4A9;
+			productRefGroup = FC0AF7EF1BA6DA3600BFE4A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC0AF7ED1BA6DA3600BFE4A9 /* Simple Network Monitor */,
+				FC0AF7FC1BA6DA3600BFE4A9 /* Simple Network MonitorTests */,
+				FC0AF8071BA6DA3600BFE4A9 /* Simple Network MonitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC0AF7EC1BA6DA3600BFE4A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0AF7F41BA6DA3600BFE4A9 /* Assets.xcassets in Resources */,
+				FC0AF7F71BA6DA3600BFE4A9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0AF7FB1BA6DA3600BFE4A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0AF8061BA6DA3600BFE4A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC0AF7EA1BA6DA3600BFE4A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0AF7F21BA6DA3600BFE4A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0AF7F91BA6DA3600BFE4A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0AF8021BA6DA3600BFE4A9 /* Simple_Network_MonitorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0AF8041BA6DA3600BFE4A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0AF80D1BA6DA3600BFE4A9 /* Simple_Network_MonitorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC0AF7FF1BA6DA3600BFE4A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC0AF7ED1BA6DA3600BFE4A9 /* Simple Network Monitor */;
+			targetProxy = FC0AF7FE1BA6DA3600BFE4A9 /* PBXContainerItemProxy */;
+		};
+		FC0AF80A1BA6DA3600BFE4A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC0AF7ED1BA6DA3600BFE4A9 /* Simple Network Monitor */;
+			targetProxy = FC0AF8091BA6DA3600BFE4A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC0AF7F51BA6DA3600BFE4A9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC0AF7F61BA6DA3600BFE4A9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC0AF80F1BA6DA3600BFE4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC0AF8101BA6DA3600BFE4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FC0AF8121BA6DA3600BFE4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Simple Network Monitor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "swirlycheetah.Simple-Network-Monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC0AF8131BA6DA3600BFE4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Simple Network Monitor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "swirlycheetah.Simple-Network-Monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC0AF8151BA6DA3600BFE4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Simple Network MonitorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "swirlycheetah.Simple-Network-MonitorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple Network Monitor.app/Contents/MacOS/Simple Network Monitor";
+			};
+			name = Debug;
+		};
+		FC0AF8161BA6DA3600BFE4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Simple Network MonitorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "swirlycheetah.Simple-Network-MonitorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple Network Monitor.app/Contents/MacOS/Simple Network Monitor";
+			};
+			name = Release;
+		};
+		FC0AF8181BA6DA3600BFE4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Simple Network MonitorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "swirlycheetah.Simple-Network-MonitorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Simple Network Monitor";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FC0AF8191BA6DA3600BFE4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Simple Network MonitorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "swirlycheetah.Simple-Network-MonitorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Simple Network Monitor";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC0AF7E91BA6DA3600BFE4A9 /* Build configuration list for PBXProject "Simple Network Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0AF80F1BA6DA3600BFE4A9 /* Debug */,
+				FC0AF8101BA6DA3600BFE4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC0AF8111BA6DA3600BFE4A9 /* Build configuration list for PBXNativeTarget "Simple Network Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0AF8121BA6DA3600BFE4A9 /* Debug */,
+				FC0AF8131BA6DA3600BFE4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC0AF8141BA6DA3600BFE4A9 /* Build configuration list for PBXNativeTarget "Simple Network MonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0AF8151BA6DA3600BFE4A9 /* Debug */,
+				FC0AF8161BA6DA3600BFE4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC0AF8171BA6DA3600BFE4A9 /* Build configuration list for PBXNativeTarget "Simple Network MonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0AF8181BA6DA3600BFE4A9 /* Debug */,
+				FC0AF8191BA6DA3600BFE4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC0AF7E61BA6DA3600BFE4A9 /* Project object */;
+}
