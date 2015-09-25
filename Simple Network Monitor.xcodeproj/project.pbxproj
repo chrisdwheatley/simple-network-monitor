@@ -383,7 +383,7 @@
 				INFOPLIST_FILE = "Simple Network Monitor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "swirlycheetah.Simple-Network-Monitor";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chris-Draycott-Wheatley.Simple-Network-Monitor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -396,7 +396,7 @@
 				INFOPLIST_FILE = "Simple Network Monitor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "swirlycheetah.Simple-Network-Monitor";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chris-Draycott-Wheatley.Simple-Network-Monitor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
