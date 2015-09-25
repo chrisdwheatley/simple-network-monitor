@@ -182,7 +182,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = swirlycheetah;
+				ORGANIZATIONNAME = "Chris Draycott-Wheatley";
 				TargetAttributes = {
 					FC0AF7ED1BA6DA3600BFE4A9 = {
 						CreatedOnToolsVersion = 7.0;
