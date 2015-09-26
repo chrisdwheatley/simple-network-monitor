@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Simple Network Monitor
 //
-//  Created by Chris Wheatley on 16/09/2015.
-//  Copyright © 2015 Chris Wheatley. All rights reserved.
+//  Created by Chris Draycott-Wheatley on 16/09/2015.
+//  Copyright © 2015 Chris Draycott-Wheatley. All rights reserved.
 //
 
 import Cocoa
