@@ -10,15 +10,19 @@ import Cocoa
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-
-    @IBOutlet weak var window: NSWindow!
     
+    @IBOutlet weak var menu: NSMenu!
     let statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(NSVariableStatusItemLength)
     var currentActiveConnection: NSString = ""
     var currentTaskId: Int32 = 0
     
     func applicationDidFinishLaunching(aNotification: NSNotification) {
+        statusItem.menu = menu
         NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: "checkActiveConnection:", userInfo: nil, repeats: true)
+    }
+    
+    @IBAction func quitItemClicked(sender: NSMenuItem) {
+        NSApplication.sharedApplication().terminate(self)
     }
     
     func checkActiveConnection(timer: NSTimer) {
