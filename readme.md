@@ -35,4 +35,4 @@ To start Simple Network Monitor on startup;
 
 ### Support
 
-* If you notice a bug or want to request a feature please [https://github.com/swirlycheetah/simple-network-monitor/issues/new](raise an issue)
+* If you notice a bug or want to request a feature please [raise an issue](https://github.com/swirlycheetah/simple-network-monitor/issues/new)
