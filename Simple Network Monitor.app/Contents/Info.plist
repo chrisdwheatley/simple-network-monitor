@@ -8,6 +8,8 @@
 	<string>en</string>
 	<key>CFBundleExecutable</key>
 	<string>Simple Network Monitor</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
 	<key>CFBundleIdentifier</key>
 	<string>Chris-Draycott-Wheatley.Simple-Network-Monitor</string>
 	<key>CFBundleInfoDictionaryVersion</key>

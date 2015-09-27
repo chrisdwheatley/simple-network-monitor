@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Resources/AppIcon.icns</key>
+		<data>
+		MI+SunG1b1oAHdxRB8/q2qv8HFQ=
+		</data>
 		<key>Resources/Base.lproj/MainMenu.nib</key>
 		<dict>
 			<key>hash</key>
@@ -20,83 +24,87 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			B0Iu9BIhitfsEDWZbnZqeF/7b8k=
+			rvEoVvqtRrg/Cw55dWap4GBiX20=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"07422ef412218ad7ec1035996e766a785ffb6fc9"</string>
+			<string>identifier "com.apple.dt.runtime.swiftAppKit" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: chriswheatley87@gmail.com (LG8NQY8RDV)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			GMnCF9qJtC6BIBoaQrR2WN6cbmE=
+			1gqNKoiPw4CfXyC/Epz73dIdRoU=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"18c9c217da89b42e81201a1a42b47658de9c6e61"</string>
+			<string>identifier "com.apple.dt.runtime.swiftCore" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: chriswheatley87@gmail.com (LG8NQY8RDV)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
 		<key>Frameworks/libswiftCoreData.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			yhvwdbJsjP77pDRB+9lyhPHX72g=
+			+HPMCvhT3UA1DW+8XzZX3r5btJ0=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"ca1bf075b26c8cfefba43441fbd97284f1d7ef68"</string>
+			<string>identifier "com.apple.dt.runtime.swiftCoreData" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: chriswheatley87@gmail.com (LG8NQY8RDV)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
 		<key>Frameworks/libswiftCoreGraphics.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			H6YKtuY1/w9lKpE2Z9bzoafCXyw=
+			l8GwaXKlcFOH497VJFWuWgagILA=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"1fa60ab6e635ff0f652a913667d6f3a1a7c25f2c"</string>
+			<string>identifier "com.apple.dt.runtime.swiftCoreGraphics" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: chriswheatley87@gmail.com (LG8NQY8RDV)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
 		<key>Frameworks/libswiftCoreImage.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			r695gS/LUe0Kc7Xp29VnvyUz8qk=
+			YwArQOnvKs33DwlfSRwSVxOPs8Y=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"afaf79812fcb51ed0a73b5e9dbd567bf2533f2a9"</string>
+			<string>identifier "com.apple.dt.runtime.swiftCoreImage" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: chriswheatley87@gmail.com (LG8NQY8RDV)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			7LBFmqquKNLvVfEvfMU2ZIZq57Q=
+			WYFdnDxOm5Msl6XY6X+Mb4aMJvU=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"ecb0459aaaae28d2ef55f12f7cc53664866ae7b4"</string>
+			<string>identifier "com.apple.dt.runtime.swiftDarwin" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: chriswheatley87@gmail.com (LG8NQY8RDV)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
 		<key>Frameworks/libswiftDispatch.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			yvTqnDwmuw3AXNj8rLbxwHMD2L8=
+			KXwnfi3RBTFBZyLpnQ4/29MProk=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"caf4ea9c3c26bb0dc05cd8fcacb6f1c07303d8bf"</string>
+			<string>identifier "com.apple.dt.runtime.swiftDispatch" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: chriswheatley87@gmail.com (LG8NQY8RDV)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
 		<key>Frameworks/libswiftFoundation.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			6GVQK+EO4CauGTsW5CBVuOMwAj0=
+			22Vh2vUzfuGPNfLdUiCEfwvGlNI=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"e865502be10ee026ae193b16e42055b8e330023d"</string>
+			<string>identifier "com.apple.dt.runtime.swiftFoundation" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: chriswheatley87@gmail.com (LG8NQY8RDV)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
 		<key>Frameworks/libswiftObjectiveC.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			kqoMdAg09tUbuY40xnILGWiBgfU=
+			3sLYIECR/uXCBkh7fJ1aIESvUBc=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"92aa0c740834f6d51bb98e34c6720b19688181f5"</string>
+			<string>identifier "com.apple.dt.runtime.swiftObjectiveC" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: chriswheatley87@gmail.com (LG8NQY8RDV)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
+		<key>Resources/AppIcon.icns</key>
+		<data>
+		MI+SunG1b1oAHdxRB8/q2qv8HFQ=
+		</data>
 		<key>Resources/Base.lproj/MainMenu.nib</key>
 		<dict>
 			<key>hash</key>
