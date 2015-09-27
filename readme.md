@@ -4,9 +4,9 @@ A simple network monitor Menubar app for OS X
 
 ___
 
-[![Simple Network Monitor Screenshot - Dark](https://raw.githubusercontent.com/swirlycheetah/simple-network-monitor/gh-pages/snm-small-dark.png)](https://raw.githubusercontent.com/swirlycheetah/simple-network-monitor/gh-pages/snm-dark.png)
+[![Simple Network Monitor Screenshot - Dark](https://swirlycheetah.github.io/simple-network-monitor/snm-small-dark.png)](https://swirlycheetah.github.io/simple-network-monitor/snm-dark.png)
 
-[![Simple Network Monitor Screenshot - Light](https://raw.githubusercontent.com/swirlycheetah/simple-network-monitor/gh-pages/snm-small-light.png)](https://raw.githubusercontent.com/swirlycheetah/simple-network-monitor/gh-pages/snm-light.png)
+[![Simple Network Monitor Screenshot - Light](https://swirlycheetah.github.io/simple-network-monitor/snm-small-light.png)](https://swirlycheetah.github.io/simple-network-monitor/snm-light.png)
 
 ___
 
