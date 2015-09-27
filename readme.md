@@ -18,7 +18,7 @@ ___
 
 ### Installation
 
-* Download the `.zip` or `.tar.gz` from the links above
+* Download the `.zip` or `.tar.gz` from https://swirlycheetah.github.io/simple-network-monitor/
 * Unzip the folder and open Simple Network Monitor.app to start the app
 
 ### Startup
