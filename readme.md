@@ -36,3 +36,7 @@ To start Simple Network Monitor on startup;
 ### Support
 
 * If you notice a bug or want to request a feature please [raise an issue](https://github.com/swirlycheetah/simple-network-monitor/issues/new)
+
+### License
+
+Released under the MIT license: [opensource.org/licenses/MIT](http://opensource.org/licenses/MIT)
