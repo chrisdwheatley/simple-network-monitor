@@ -20,6 +20,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusItem.menu = menu
         NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: "checkActiveConnection:", userInfo: nil, repeats: true)
     }
+    @IBAction func websiteItemClicked(sender: NSMenuItem) {
+        NSWorkspace.sharedWorkspace().openURL(NSURL(string: "https://swirlycheetah.github.io/simple-network-monitor/")!)
+    }
+    @IBAction func donateItemCLicked(sender: NSMenuItem) {
+        NSWorkspace.sharedWorkspace().openURL(NSURL(string: "https://www.patreon.com/swirlycheetah")!)
+    }
     
     @IBAction func quitItemClicked(sender: NSMenuItem) {
         NSApplication.sharedApplication().terminate(self)
