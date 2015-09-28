@@ -12,6 +12,7 @@ ___
 
 ### Features
 
+* Supports OS X 10.9 (Mavericks) and above
 * Switching between Kb/s (Kilobits per second) and Mb/s (Megabits per second) depending on speed
 * Automatic active network checking
 * Dark & light status bar support
