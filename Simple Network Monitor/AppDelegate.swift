@@ -16,21 +16,28 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var currentActiveConnection: NSString = ""
     var currentTaskId: Int32 = 0
     
+    // application launch
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         statusItem.menu = menu
         NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: "checkActiveConnection:", userInfo: nil, repeats: true)
     }
+    
+    // website menu item
     @IBAction func websiteItemClicked(sender: NSMenuItem) {
         NSWorkspace.sharedWorkspace().openURL(NSURL(string: "https://swirlycheetah.github.io/simple-network-monitor/")!)
     }
+    
+    // donate menu item
     @IBAction func donateItemCLicked(sender: NSMenuItem) {
         NSWorkspace.sharedWorkspace().openURL(NSURL(string: "https://www.patreon.com/swirlycheetah")!)
     }
     
+    // quit menu item
     @IBAction func quitItemClicked(sender: NSMenuItem) {
         NSApplication.sharedApplication().terminate(self)
     }
     
+    // check active connection, called every second from applicationDidFinishLaunching
     func checkActiveConnection(timer: NSTimer) {
         let activeConnection = NSTask()
         activeConnection.launchPath = "/bin/sh"
@@ -49,6 +56,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
     }
     
+    // kills the monitor process when a new active connection is found
     func stopMonitor(pid: Int32) {
         let task = NSTask()
         task.launchPath = "/bin/kill"
@@ -57,6 +65,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         task.launch()
     }
     
+    // starts a new monitor process when a new active connection is found
     func startMonitor(connection: String) -> Int32 {
         let task = NSTask()
         task.launchPath = "/usr/sbin/netstat"
@@ -73,6 +82,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         return task.processIdentifier
     }
     
+    // formats the data received from the monitor task to display in the status bar
     func receivedData(notif : NSNotification) {
         let fh:NSFileHandle = notif.object as! NSFileHandle
         let data = fh.availableData
