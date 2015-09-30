@@ -22,21 +22,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: "checkActiveConnection:", userInfo: nil, repeats: true)
     }
     
-    // website menu item
-    @IBAction func websiteItemClicked(sender: NSMenuItem) {
-        NSWorkspace.sharedWorkspace().openURL(NSURL(string: "https://swirlycheetah.github.io/simple-network-monitor/")!)
-    }
-    
-    // donate menu item
-    @IBAction func donateItemCLicked(sender: NSMenuItem) {
-        NSWorkspace.sharedWorkspace().openURL(NSURL(string: "https://www.patreon.com/swirlycheetah")!)
-    }
-    
-    // quit menu item
-    @IBAction func quitItemClicked(sender: NSMenuItem) {
-        NSApplication.sharedApplication().terminate(self)
-    }
-    
     // check active connection, called every second from applicationDidFinishLaunching
     func checkActiveConnection(timer: NSTimer) {
         let activeConnection = NSTask()
@@ -47,8 +32,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         activeConnection.launch()
         activeConnection.waitUntilExit()
         let acData = acPipe.fileHandleForReading.readDataToEndOfFile()
-        let acStr = NSString(data: acData, encoding: NSASCIIStringEncoding) as! String
-        let newActiveConnection = trimWhitespace(acStr as String)
+        let acStr = NSString(data: acData, encoding: NSASCIIStringEncoding)
+        let newActiveConnection = trimWhitespace(acStr as! String)
         if newActiveConnection != "" && newActiveConnection != currentActiveConnection {
             stopMonitor(currentTaskId)
             currentTaskId = startMonitor(strToArray(newActiveConnection)[1] as! String)
@@ -60,8 +45,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func stopMonitor(pid: Int32) {
         let task = NSTask()
         task.launchPath = "/bin/kill"
-        let x = String(pid)
-        task.arguments = ["-9", x]
+        task.arguments = ["-9", String(pid)]
         task.launch()
     }
     
@@ -69,7 +53,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func startMonitor(connection: String) -> Int32 {
         let task = NSTask()
         task.launchPath = "/usr/sbin/netstat"
-        task.arguments = ["-w1", "-I" + (connection)]
+        task.arguments = ["-w1", "-I" + connection]
         let pipe = NSPipe()
         task.standardOutput = pipe
         let fh = pipe.fileHandleForReading
@@ -91,8 +75,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             fh.waitForDataInBackgroundAndNotify()
             let line = NSString(data: data, encoding: NSASCIIStringEncoding) as! String
             let values = trimWhitespace(line)
-            let dlSpeedStr = strToArray(values)[2] as! String
-            
+            let dlSpeedStr = strToArray(values)[2] as! String            
             let dlSpeed = Float(dlSpeedStr)
             
             if dlSpeed != nil {
@@ -108,6 +91,21 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         } else {
             statusItem.title = "0.00 Kb/s▼"
         }
+    }
+    
+    // website menu item
+    @IBAction func websiteItemClicked(sender: NSMenuItem) {
+        NSWorkspace.sharedWorkspace().openURL(NSURL(string: "https://swirlycheetah.github.io/simple-network-monitor/")!)
+    }
+    
+    // donate menu item
+    @IBAction func donateItemCLicked(sender: NSMenuItem) {
+        NSWorkspace.sharedWorkspace().openURL(NSURL(string: "https://www.patreon.com/swirlycheetah")!)
+    }
+    
+    // quit menu item
+    @IBAction func quitItemClicked(sender: NSMenuItem) {
+        NSApplication.sharedApplication().terminate(self)
     }
     
     func trimWhitespace(str: String) -> String {
